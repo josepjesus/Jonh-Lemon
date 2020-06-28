@@ -1,7 +1,9 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameEnding : MonoBehaviour
 {
@@ -18,12 +20,29 @@ public class GameEnding : MonoBehaviour
     float m_Timer;
     bool m_HasAudioPlayed;
 
+    public Text noCoins;
+
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject == player)
         {
-            m_IsPlayerAtExit = true;
+            if (TotalCoins.totalCoins != 4)
+            {
+                noCoins.enabled = true;
+                noCoins.text = "You need 4 Coins.";
+                StartCoroutine(Wait());
+            }
+            else
+            {
+                m_IsPlayerAtExit = true;
+            } 
         }
+    }
+
+    IEnumerator Wait()
+    {
+        yield return new WaitForSeconds(5);
+        noCoins.enabled = false;
     }
 
     public void CaughtPlayer()

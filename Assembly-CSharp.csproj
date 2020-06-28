@@ -64,14 +64,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\CollectCoin.cs" />
+    <Compile Include="Assets\Scripts\FollowPlayer.cs" />
     <Compile Include="Assets\Scripts\GameEnding.cs" />
+    <Compile Include="Assets\Scripts\GatKey.cs" />
     <Compile Include="Assets\Scripts\LightFlicker.cs" />
     <Compile Include="Assets\Scripts\Observer.cs" />
     <Compile Include="Assets\Scripts\Outliner.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\TotalCoins.cs" />
     <Compile Include="Assets\Scripts\WaypointPatrol.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <None Include="Assets\Shaders\SpookyStandardShader.shader" />
+    <None Include="Assets\Models\Key\readME keys.txt" />
     <None Include="Assets\Shaders\PlaneFog.shader" />
     <None Include="Assets\Shaders\ToonShader.shader" />
     <Reference Include="Cinemachine">
