@@ -65,12 +65,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CollectCoin.cs" />
+    <Compile Include="Assets\Scripts\DoorAction.cs" />
     <Compile Include="Assets\Scripts\FollowPlayer.cs" />
     <Compile Include="Assets\Scripts\GameEnding.cs" />
     <Compile Include="Assets\Scripts\GatKey.cs" />
+    <Compile Include="Assets\Scripts\GhostObserver.cs" />
+    <Compile Include="Assets\Scripts\HealthBarController.cs" />
     <Compile Include="Assets\Scripts\LightFlicker.cs" />
     <Compile Include="Assets\Scripts\Observer.cs" />
     <Compile Include="Assets\Scripts\Outliner.cs" />
+    <Compile Include="Assets\Scripts\PlayerJump.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\TotalCoins.cs" />
     <Compile Include="Assets\Scripts\WaypointPatrol.cs" />

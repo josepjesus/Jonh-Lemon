@@ -22,6 +22,7 @@ public class GameEnding : MonoBehaviour
 
     public Text noCoins;
 
+
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject == player)

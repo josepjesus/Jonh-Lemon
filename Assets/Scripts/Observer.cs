@@ -9,11 +9,30 @@ public class Observer : MonoBehaviour
 
     bool m_IsPlayerInRange;
 
+    public HealthBarController hbc;
+
     void OnTriggerEnter(Collider other)
     {
         if (other.transform == player)
         {
             m_IsPlayerInRange = true;
+
+            Vector3 direction = player.position - transform.position + Vector3.up;
+            Ray ray = new Ray(transform.position, direction);
+            RaycastHit raycastHit;
+
+            if (Physics.Raycast(ray, out raycastHit))
+            {
+                if (raycastHit.collider.transform == player)
+                {
+                    hbc.changeHP(1);
+                    if (hbc.GetCurrentHp() <= 0)
+                    {
+                        gameEnding.CaughtPlayer();
+                        TotalCoins.totalCoins = 0;
+                    }
+                }
+            }
         }
     }
 
@@ -29,18 +48,7 @@ public class Observer : MonoBehaviour
     {
         if (m_IsPlayerInRange)
         {
-            Vector3 direction = player.position - transform.position + Vector3.up;
-            Ray ray = new Ray(transform.position, direction);
-            RaycastHit raycastHit;
-
-            if (Physics.Raycast(ray, out raycastHit))
-            {
-                if (raycastHit.collider.transform == player)
-                {
-                    gameEnding.CaughtPlayer();
-                    TotalCoins.totalCoins = 0;
-                }
-            }
+            player.GetComponent<Rigidbody>().AddForce(-player.transform.forward * 0.5f, ForceMode.Impulse);
         }
     }
 }

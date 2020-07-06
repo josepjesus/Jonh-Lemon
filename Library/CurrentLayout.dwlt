@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 498}
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
-  controlID: 144
+  controlID: 146
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -221,7 +221,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 77
+  controlID: 81
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -246,7 +246,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 224}
   m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
-  controlID: 78
+  controlID: 82
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -490,21 +490,21 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scripts
+  - Assets
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\pepje\OneDrive\Escritorio\CreateWithCode\Principiante
     3D
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 111}
-    m_SelectedIDs: 0a2c0000
-    m_LastClickedID: 11274
-    m_ExpandedIDs: 00000000f2280000b62b0000042c00001a2c000000ca9a3b
+    scrollPos: {x: 0, y: 55}
+    m_SelectedIDs: fa280000
+    m_LastClickedID: 10490
+    m_ExpandedIDs: 00000000fa28000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -532,7 +532,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f2280000042c00001a2c0000
+    m_ExpandedIDs: 00000000fa280000d22b0000242c00003a2c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -559,22 +559,22 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000b42a00006af00000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: GatKey
-      m_OriginalName: GatKey
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 61792
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 5}
     m_CreateAssetUtility:
@@ -650,10 +650,10 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 44}
-      m_SelectedIDs: 4a250000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: f4d8ffffa6f8ffffe2f8fffff4f8ffff1ef9ffffdafbffffdcfbffff8855000002640000a8650000ac680000
+      m_ExpandedIDs: 86e0f3ff92e0f3ffb6e7f3fff0e2ffffd6e3ffffe8e3ffff8ee4ffff30e5ffffa6f8ffffd0f8ffffe2f8ffffe6f8fffff4f8fffffaf8ffff1ef9ffffdcfbffff78310000d0310000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -709,9 +709,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 18, y: 1, z: 1.5}
+    m_Target: {x: -9.362444, y: 1.1276027, z: -3.0275648}
     speed: 2
-    m_Value: {x: 18, y: 1, z: 1.5}
+    m_Value: {x: -9.362444, y: 1.1276027, z: -3.0275648}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -739,13 +739,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.5719786, y: -0.013781369, z: 0.009611732, w: -0.82009643}
+    m_Target: {x: 0.27561152, y: 0.19917753, z: -0.05848795, w: 0.9385871}
     speed: 2
-    m_Value: {x: -0.5719786, y: -0.013781369, z: 0.009611732, w: -0.82009643}
+    m_Value: {x: 0.27561152, y: 0.19917753, z: -0.05848795, w: 0.9385871}
   m_Size:
-    m_Target: 6.228613
+    m_Target: 7.9088283
     speed: 2
-    m_Value: 6.228613
+    m_Value: 7.9088283
   m_Ortho:
     m_Target: 0
     speed: 2
